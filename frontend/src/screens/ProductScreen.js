@@ -58,7 +58,7 @@ const ProductScreen = () => {
 
                         <ListGroup.Item>
                         <div className="d-grid">
-                            <Button disabled={product.countInStock == 0} type='button'>Add to Cart</Button>
+                            <Button disabled={product.countInStock === 0} type='button'>Add to Cart</Button>
                         </div>
                         </ListGroup.Item>
                     </ListGroup>
